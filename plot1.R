@@ -44,23 +44,6 @@ hist(globalActivePower, col="red", main="Global Active Power", xlab="Global Acti
 rug(globalActivePower)
 dev.off()
 
-#boxplot(globalActivePower, main="Global Active Power", col="blue", xlab="Global Active Power (kW)", ylab="Frequency")
-#rug(globalActivePower)
-
-#boxplot(globalReactivePower, main="Global Reactive Power", col="red", xlab="Global Reactive Power (kW)", ylab="Frequency")
-#rug(globalReactivePower)
-
-#boxplot(voltage, main="Voltage", col="blue", xlab="Voltage")
-#rug(voltage)
-
-#boxplot(globalIntensity,  main="Global Intensity", col="red", xlab="Ampere")
-#rug(globalIntensity)
-
-#hist(globalIntensity, col="red", main="Global Intensity", xlab="Global Intensity",  ylab="Ampere")
-#rug(globalIntensity)
-
-#hist(globalReactivePower, col="magenta", main="Global Reactive Power", xlab="globalReactivePower", ylab="kW")
-#rug(globalReactivePower)
 
 
 
